@@ -10,16 +10,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArchawinWongkittiruk/TrelloClone.git"
-  },
-  "author": "Archawin Wongkittiruk",
+  
+  "author": "Shanthi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ArchawinWongkittiruk/TrelloClone/issues"
-  },
-  "homepage": "https://github.com/ArchawinWongkittiruk/TrelloClone#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
